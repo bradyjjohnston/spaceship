@@ -3,8 +3,8 @@
 
   interface Props {
     post: {
-      id: string; // Changed from slug: string;
-      body: string;
+      id: string;
+      body?: string;
       data: {
         title: string;
         description: string;

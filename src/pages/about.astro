@@ -3,6 +3,8 @@ import Layout from '@/layouts/Layout.astro';
 import { SITE } from '@/config';
 import Breadcrumbs from '@/components/Breadcrumbs.svelte';
 import { render, getEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import profilePhoto from '@/assets/profile_photo.png';
 
 // Social icons mapping
 const socialIcons = {
@@ -39,9 +41,11 @@ const aboutTitle =
     <aside class="flex-shrink-0 lg:w-64 space-y-6">
       <!-- Profile Photo -->
       <div class="w-full aspect-square">
-        <img
-          src="/profile_photo.png"
+        <Image
+          src={profilePhoto}
           alt={SITE.author}
+          width={400}
+          height={400}
           class="w-full h-full object-cover rounded-2xl border-2 border-border shadow-xl"
         />
       </div>
