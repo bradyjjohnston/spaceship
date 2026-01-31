@@ -180,18 +180,14 @@
   --tw-prose-quote-borders: var(--color-border);
   --tw-prose-captions: var(--color-muted-foreground);
   --tw-prose-code: var(--color-foreground);
-  --tw-prose-pre-code: #ffffff;
   --tw-prose-pre-bg: #18181b;
-  --tw-prose-th-borders: var(--color-border);
-  --tw-prose-td-borders: var(--color-border);
 
   font-size: 1.05rem;
   line-height: 1.75;
 }
 
 .dark .prose {
-  --tw-prose-pre-bg: #18181b;
-  --tw-prose-pre-code: #ffffff;
+  --tw-prose-pre-bg: #09090b;
   --tw-prose-links: var(--color-foreground);
 }
 
