@@ -6,7 +6,12 @@ function createTheme() {
   let isListeningToSystem = false;
 
   function updateDom(isDark: boolean) {
-    document.documentElement.classList[isDark ? 'add' : 'remove']('dark');
+    const contains = document.documentElement.classList.contains('dark');
+    if (isDark && !contains) {
+      document.documentElement.classList.add('dark');
+    } else if (!isDark && contains) {
+      document.documentElement.classList.remove('dark');
+    }
   }
 
   const onSystemThemeChange = (e: MediaQueryListEvent) => {
