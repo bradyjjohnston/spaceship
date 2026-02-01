@@ -22,6 +22,12 @@ export interface SiteConfig {
     filePath: string; // Path to markdown file with CTA content
   };
 
+  // Homepage Hero block
+  hero: {
+    enabled: boolean;
+    filePath: string;
+  };
+
   // Giscus comments configuration
   comments: {
     enabled: boolean;
@@ -66,6 +72,11 @@ export const SITE: SiteConfig = {
   cta: {
     enabled: true,
     filePath: 'site/cta.md',
+  },
+
+  hero: {
+    enabled: true,
+    filePath: 'site/hero.md',
   },
 
   // Giscus comments configuration
