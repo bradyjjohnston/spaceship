@@ -51,24 +51,24 @@ export interface SiteConfig {
 }
 
 export const SITE: SiteConfig = {
-  author: 'Astronaut',
-  desc: 'Developer and designer building premium web experiences.',
-  title: 'Spaceship',
+  author: 'Brady Johnston',
+  desc: 'Electrical engineer and maker',
+  title: 'Brady Johnston',
   ogImage: 'og.png',
   lang: 'en-US',
   base: '/',
-  website: 'https://spaceship-one.vercel.app',
+  website: 'https://bradyjjohnston.dev',
   social: {
-    x: 'https://x.com/astronaut',
-    github: 'https://github.com/astronaut',
-    telegram: 'https://t.me/astronaut',
-    facebook: 'https://facebook.com/astronaut',
+    x: '',
+    github: '',
+    telegram: '',
+    facebook: '',
   },
   googleAnalyticsId: '', // Example: 'G-XXXXXXXXXX'
   homeHeroDescription:
-    'Building premium web experiences with Astro, Svelte, and Tailwind. Focused on performance, aesthetics, and clean code. I am currently working on open-source tools and sharing my journey through writing.',
-  blogDescription: 'A collection of thoughts, tutorials, and general web discovery.',
-  projectsDescription: 'Things I’ve built that I’m proud of. Many of them are open-source.',
+    'This is my website with random stuff on it',
+  blogDescription: 'A collection of thoughts, tutorials, and whatever I want.',
+  projectsDescription: 'Things I’ve built.',
 
   // Homepage post counts
   featuredPostsCount: 3,
