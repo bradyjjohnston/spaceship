@@ -1,9 +1,9 @@
 ---
-title: "I'm Astronaut, a software designer and entrepreneur."
+title: "I'm Brady, an electrical engineer and maker of random stuff."
 ---
 
-I've been obsessed with computers since I was a kid, though I didn't start coding until I was in my late teens. I'm a self-taught developer who loves the intersection of design and technology.
+I have been interested in computers and electronics for as long as I can remember. What started as curiosity turned into hands-on engineering through building, breaking, and iterating on real systems.
 
-Currently, I'm building **Spaceship**, a modern blog template that combines the power of Astro 5, Svelte 5, and Tailwind 4. This project is my attempt at creating a perfect balance between performance and developer experience.
+I am currently studying electrical engineering and working on a mix of hardware and software projects, including embedded systems, motor controllers, custom PCBs, and the tools that support them. This site is a place to document that work, share technical notes, and reflect on design decisions along the way.
 
-Beyond work, I'm an avid reader, amateur astronomer, and coffee enthusiast. I believe that the best products are built at the intersection of curiosity and craftsmanship.
+Outside of coursework and projects, I focus on building things that are reliable, efficient, and well designed. I am especially interested in the balance between performance, clarity, and practical engineering.
